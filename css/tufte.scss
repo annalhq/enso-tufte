@@ -12,11 +12,9 @@ nav_exclude: true
 /*****************************************************************************/
 
 // Imports to create final
-
-@import "../_sass/fonts";
-@import "../_sass/settings";
-@import "../_sass/syntax-highlighting";
-
+@use "../_sass/fonts";
+@use "../_sass/settings" as *;
+@use "../_sass/syntax-highlighting";
 // Global Resets
 //
 * { margin: 0; padding: 0; }
