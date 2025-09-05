@@ -1,4 +1,4 @@
-name: deploy-blo
+name: deploy-blog
 
 on:
   push:
@@ -15,7 +15,7 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-  
+
 jobs:
   build:
     if: startsWith(github.event.head_commit.message, 'docs(blog):')
