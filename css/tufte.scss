@@ -9,7 +9,6 @@
 /* The README.md will show you how to set up your site along with other goodies
 /*****************************************************************************/
 
-// Imports to create final
 @use "../_sass/fonts";
 @use "../_sass/settings" as *;
 @use "../_sass/syntax-highlighting";
@@ -259,7 +258,7 @@ figcaption { float: right;
 
 figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; max-width: 100%; }
 
-img { max-width: 100%; }
+img { max-width: 100%; padding-top: 1rem; }
 
 .sidenote, .marginnote { float: right;
                          clear: right;
