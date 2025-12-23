@@ -3,4 +3,4 @@ layout: full-width
 title: About
 ---
 
-hi! im *annenso*
+hi! im *ann*
